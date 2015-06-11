@@ -1,0 +1,7 @@
+augustine_platform_home:
+    path:      /index/{page}
+    defaults:  { _controller: AugustinePlatformBundle:Advert:index, page : 1 }
+
+augustine_platform_history:
+    path:      /historique/{page}
+    defaults:  { _controller: AugustinePlatformBundle:Advert:history, page : 2 }
